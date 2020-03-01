@@ -4,14 +4,14 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="751.0" prefWidth="448.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ChatController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="751.0" prefWidth="448.0" style="-fx-background-color: #22264c;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ChatController">
    <children>
       <TextArea fx:id="chatBox" editable="false" layoutX="24.0" layoutY="30.0" prefHeight="674.0" prefWidth="401.0">
          <font>
-            <Font size="22.0" />
+            <Font size="14.0" />
          </font></TextArea>
       <TextField fx:id="chatText" layoutX="24.0" layoutY="712.0" prefHeight="25.0" prefWidth="295.0" text="asd" />
       <Button fx:id="sendButton" layoutX="327.0" layoutY="712.0" mnemonicParsing="false" onAction="#sendText" prefHeight="25.0" prefWidth="94.0" text="Send" />
-      <Label layoutX="24.0" layoutY="14.0" text="Chat" />
+      <Label layoutX="24.0" layoutY="14.0" text="Chat" textFill="WHITE" />
    </children>
 </AnchorPane>

@@ -29,10 +29,11 @@ public class ClientSomething {
     public static int ipPort = 8080;
     public ChatController chatController;
 
-    public ClientSomething(ChatController chat) {
+    public ClientSomething(ChatController chat, String nick) {
         this.addr = addr;
         this.port = ipPort;
         this.chatController = chat;
+        this.nickname = nick;
 
         try {
             this.socket = new Socket(addr, port);

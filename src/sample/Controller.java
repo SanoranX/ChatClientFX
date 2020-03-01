@@ -22,6 +22,7 @@ import java.util.logging.Logger;
 
 public class Controller {
 
+    public static String nickname;
     public static ClientSomething clientSomething;
 
     @FXML // ResourceBundle that was given to the FXMLLoader
@@ -48,7 +49,7 @@ public class Controller {
 
     @FXML
     public void newWindow(ActionEvent event) {
-        System.out.println("Sout");
+        nickname = loginText.getText();
         Parent root;
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
@@ -57,7 +58,7 @@ public class Controller {
              * if "fx:controller" is not set in fxml
              * fxmlLoader.setController(NewWindowController);
              */
-            Scene scene = new Scene(fxmlLoader.load(), 900, 900);
+            Scene scene = new Scene(fxmlLoader.load(), 448, 751);
             Stage stage = new Stage();
             stage.setTitle("New Window");
             stage.setScene(scene);

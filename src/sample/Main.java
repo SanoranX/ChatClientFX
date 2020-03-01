@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 700,400));
+        primaryStage.setScene(new Scene(root, 600,400));
         primaryStage.show();
 
         System.out.println("JavaChatClient started on port " + "8080 " + "on IP " + "127.0.0.1");

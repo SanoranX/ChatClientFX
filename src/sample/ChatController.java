@@ -24,7 +24,7 @@ public class ChatController {
     @FXML
         // This method is called by the FXMLLoader when initialization is complete
     void initialize() {
-        clientSomething = new ClientSomething(chatController);
+        clientSomething = new ClientSomething(chatController, Controller.nickname);
     }
 
     public void sendText(javafx.event.ActionEvent event) {
