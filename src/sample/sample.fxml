@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutY="89.0" prefHeight="311.0" prefWidth="600.0" style="-fx-background-color: #a6a5c9;">
+         <children>
+            <Button fx:id="loginButton" layoutX="184.0" layoutY="207.0" mnemonicParsing="false" onAction="#newWindow" prefHeight="58.0" prefWidth="232.0" text="Login" />
+            <TextField fx:id="loginText" layoutX="184.0" layoutY="131.0" prefHeight="25.0" prefWidth="232.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="167.0" layoutY="14.0" prefHeight="76.0" prefWidth="266.0" text="Welcome to chat">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
